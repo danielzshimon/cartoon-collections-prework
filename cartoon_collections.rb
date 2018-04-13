@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   new_array = array.collect do |element|
   "#{element.capitalize}!"
   end
-  new_array
+  
 end
 
 def long_planeteer_calls(array)
