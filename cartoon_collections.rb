@@ -5,10 +5,9 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  new_array = array.collect do |element|
+  array.collect do |element|
   element.upcase"!"
   end
-  new_array
 end
 
 def long_planeteer_calls(array)
